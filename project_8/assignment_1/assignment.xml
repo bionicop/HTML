@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE travel SYSTEM "dtd_1.dtd">
+<travel>
+    <transportation mode="land">
+        <destination></destination>
+        <depart-date></depart-date>
+        <address></address>
+        <carrier></carrier>
+    </transportation>
+</travel>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT travel (transportation)>
+<!ELEMENT transportation (destination,depart-date,address*,carrier+)>
+<!ELEMENT destination (#PCDATA)>
+<!ELEMENT depart-date (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT carrier (#PCDATA)>
+
+<!ATTLIST transportation mode CDATA "air, water, land">
+<!ATTLIST carrier company CDATA #FIXED "xyz" >
