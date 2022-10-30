@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -13,10 +13,33 @@ html{
     --navbar-height: 60px;
 }
 
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    z-index: 996;
+}
+
+#topbar.topbar-scrolled {
+    top: -40px;
+}
+
+#topbar .contact-info i span{
+    font-style: normal;
+    color: #d9ba85;
+    padding-left: 5px;
+    color: #fff;
+}
+
 /* HEADER */
 #header {
     display: flex;
 }
+
 
 /* re-color */
 #header div button {
@@ -36,7 +59,7 @@ html{
 
 /* NAV BAR */
 #navbar {
-    background-color:rgba(0,0,0,.60);
+    background-color: rgba(0, 0, 0, .60);
     display: flex;
     align-items: center;
     position: sticky;
@@ -126,11 +149,11 @@ html{
 }
 
 #content {
-    background-color:#151515;
-    padding:2.5rem;
-    position:relative;
-    z-index:1;
-    }
+    background-color: #151515;
+    padding: 2.5rem;
+    position: relative;
+    z-index: 1;
+}
 
 /* BUTTON */
 .button {
@@ -166,19 +189,20 @@ html{
 #video {
     object-fit: contain;
 }
+
 #hero-vid {
-    backface-visibility:hidden;
-    background-size:cover;
-    bottom:0;
-    height:auto;
-    min-height:100%;
-    min-width:100%;
-    perspective:1000;
-    position:fixed;
-    right:0;
-    width:auto;
-    z-index:-1;
-    }
+    backface-visibility: hidden;
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    perspective: 1000;
+    position: fixed;
+    right: 0;
+    width: auto;
+    z-index: -1;
+}
 
 /* MENU */
 #menu {
