@@ -125,7 +125,12 @@ html{
     font-family: 'Bree Serif', serif;
 }
 
-
+#content {
+    background-color:#151515;
+    padding:2.5rem;
+    position:relative;
+    z-index:1;
+    }
 
 /* BUTTON */
 .button {
@@ -227,6 +232,7 @@ html{
     height: 124px;
 }
 
+/* FOOTER */
 footer {
     background: black;
     color: white;

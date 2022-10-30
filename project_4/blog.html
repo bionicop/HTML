@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Healthy Rasoi: About Us</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blog.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,900'>
     <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 </head>
 
@@ -18,20 +21,20 @@
             <div id="logo"><img src="./img/logo.png" alt="Healthy Rasoi logo"><span>Healthy Rasoi</span></div>
         </div>
         <ul>
-            <li class="item"><a href="./index.html">Home</a></li>
-            <li class="item"><a href="#menu">Menu</a></li>
-            <li class="item"><a href="#recipe">Recipe</a></li>
+            <li class="item"><a href="./index.html#home">Home</a></li>
+            <li class="item"><a href="./index.html#menu">Menu</a></li>
+            <li class="item"><a href="./index.html#recipe">Recipe</a></li>
             <li class="item"><a href="./blog.html">Blog</a></li>
-            <li class="item"><a href="#about-us">About Us</a></li>
-            <li class="item"><a href="#contact-us">Contact Us</a></li>
+            <li class="item"><a href="./index.html#about-us">About Us</a></li>
+            <li class="item"><a href="./index.html#contact-us">Contact Us</a></li>
         </ul>
         <div>
             <button class="button" role="button">BOOK A TABLE</button>
         </div>
     </nav>
 
-    <!-- Home -->
-    <section id="home" class="home">
+    <!-- VIDEO -->
+    <section id="home" class="blog">
         <video class="visible-desktop" id="hero-vid" autoplay loop muted>
             <source type="video/mp4" src="./video/resturant_clip.mp4">
             </source>
@@ -39,15 +42,38 @@
         </video>
     </section>
 
-    <!-- Menu-->
-    <section id="menu" class="menu">
+    <!-- BLOG-->
+    <section id="menu" class="blog">
         <div class="container">
             <hr />
         </div>
-        <h1 class="h-primary center"><b>-</b> Menu <b>-</b></h1>
-        <div id="services" class="box">
-        </div>
+        <h1 class="h-primary center"><b>-</b> Blog <b>-</b></h1>
     </section>
+
+    <article class="post">
+        <div>
+            <div class="absolute-bg" style="background-image: url('./img/basics_workflow_ig.png');"></div>
+        </div>
+        <div class="post__container">
+            <span class="post__category">Michelle's Travels</span>
+
+            <div class="post__content">
+                <header>
+                    <time class="post__time">Jan 22 2017</time>
+                    <h1 class="post__header"><span>Visiting</span> <span>the</span> <span>beach</span></h1>
+                </header>
+
+                <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a augue justo. In
+                    mollis erat in elit tempus, feugiat luctus ex sollicitudin. Maecenas euismod tortor dolor, vel
+                    blandit augue aliquam sit amet. Vestibulum et eros mollis, laoreet nisi ac, condimentum sapien.
+                    Aliquam nec nunc enim.</p>
+            </div>
+            <div class="post__link">
+                <a href="#">Older Posts</a>
+            </div>
+        </div>
+    </article>
+
 </body>
 
 </html>
