@@ -1,4 +1,6 @@
-/* CSS RESET */
+/*--------------------------------------------------------------
+# CSS RESET
+--------------------------------------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +10,12 @@ html {
     scroll-behavior: smooth;
 }
 
-/* CSS Variables */
+/*--------------------------------------------------------------
+# CSS Variables
+--------------------------------------------------------------*/
 :root {
     --navbar-height: 60px;
 }
-
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -28,36 +31,16 @@ html {
     top: -40px;
 }
 
-#topbar .contact-info i span{
+#topbar .contact-info i span {
     font-style: normal;
     color: #d9ba85;
     padding-left: 5px;
     color: #fff;
 }
 
-/* HEADER */
-#header {
-    display: flex;
-}
-
-
-/* re-color */
-#header div button {
-    color: #E84A5F;
-    background-color: #2A363B;
-}
-
-/* HEADER: LOGO */
-#logo {
-    margin: 11px 35px;
-}
-
-#logo img {
-    height: 80px;
-    margin: 5px 10px;
-}
-
-/* NAV BAR */
+/*--------------------------------------------------------------
+# NAV BAR
+--------------------------------------------------------------*/
 #navbar {
     background-color: rgba(0, 0, 0, .60);
     display: flex;
@@ -78,7 +61,7 @@ html {
     opacity: 0.85;
 }
 
-/* Navigation Bar: Logo and Image */
+/* NAV BAR: Logo and Image */
 #logo {
     margin: 10px 34px;
 }
@@ -88,8 +71,7 @@ html {
     margin: 3px 6px;
 }
 
-
-/* NAV BAR: STYLING */
+/* NAV BAR: Styling */
 #navbar ul {
     display: flex;
     font-family: 'arial';
@@ -113,7 +95,9 @@ html {
     background-color: #2A363B;
 }
 
-/* HOME */
+/*--------------------------------------------------------------
+# HOME
+--------------------------------------------------------------*/
 #home {
     display: flex;
     flex-direction: column;
@@ -155,7 +139,9 @@ html {
     z-index: 1;
 }
 
-/* BUTTON */
+/*--------------------------------------------------------------
+# BUTTON
+--------------------------------------------------------------*/
 .button {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -185,7 +171,9 @@ html {
     }
 }
 
-/* VIDEO */
+/*--------------------------------------------------------------
+# VIDEO
+--------------------------------------------------------------*/
 #video {
     object-fit: contain;
 }
@@ -204,15 +192,15 @@ html {
     z-index: -1;
 }
 
-/* MENU */
+/*--------------------------------------------------------------
+# MAIN
+--------------------------------------------------------------*/
 #menu {
-    display: flex;
-    flex-direction: column;
     background-color: #2A363B;
-    padding: 3px 200px;
-    height: 550px;
-    justify-content: center;
-    align-items: center;
+}
+
+#menu table{
+    color:white;
 }
 
 #menu h1 {
@@ -221,42 +209,9 @@ html {
     font-family: 'Bree Serif', serif;
 }
 
-#menu p {
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Bree Serif', serif;
-}
-
-/* Clients Section */
-#client-section {
-    position: relative;
-}
-
-#client-section::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.3;
-}
-
-#clients {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.client-item {
-    padding: 34px;
-}
-
-#clients img {
-    height: 124px;
-}
-
-/* FOOTER */
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/
 footer {
     background: black;
     color: white;
