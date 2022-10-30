@@ -104,7 +104,7 @@ html{
     content: "";
     position: absolute;
     background-color: #2A363B;
-    height: 550px;
+    height: 590px;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -163,7 +163,6 @@ html{
 }
 #hero-vid {
     backface-visibility:hidden;
-    background:url("https://www.markhillard.com/sandbox/media/polina.jpg") no-repeat scroll 0 0 #000;
     background-size:cover;
     bottom:0;
     height:auto;
