@@ -210,17 +210,30 @@ html {
 }
 
 /*--------------------------------------------------------------
+# ABOUT US
+--------------------------------------------------------------*/
+#about-us {
+    background-color: #2A363B;
+}
+
+#about-us h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+/*--------------------------------------------------------------
 # CONTACT US
 --------------------------------------------------------------*/
-#contact {
-    background-color: #6a9ac4;
+#contact-us {
+    background-color: #2A363B;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contact-box {
-    width: clamp(100px, 90%, 1000px);
+    width: clamp(100px, 75%, 1000px);
     margin: 80px 50px;
     display: flex;
     flex-wrap: wrap;
@@ -228,7 +241,7 @@ html {
 
 .contact-links,
 .contact-form-wrapper {
-    width: 50%;
+    width: 100%;
     padding: 8% 5% 10% 5%;
 }
 
@@ -236,11 +249,13 @@ html {
 .contact-links {
     background-color: #1f2e43;
     background:
-        radial-gradient(circle at 55% 92%, #426691 0 12%, transparent 12.2%),
-        radial-gradient(circle at 94% 72%, #426691 0 10%, transparent 10.2%),
+        radial-gradient(circle at 21% 21%, #E84A5F 0 12%, transparent 12.2%),
+        radial-gradient(circle at 12% 17%, #dc7784 0 15%, transparent 50.2%),
+        radial-gradient(circle at 0% 0%, #FF847C 0 40%, transparent 40.2%),
+        radial-gradient(circle at 94% 85%, #E84A5F 0 10%, transparent 10.2%),
         radial-gradient(circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%),
-        radial-gradient(circle at 0% 0%, #263a53 0 40%, transparent 40.2%),
-        #1f2e43;
+        
+        #2A363B;
     border-radius: 10px 0 0 10px;
 }
 
@@ -320,7 +335,7 @@ textarea {
 
 label {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 2%;
     color: #999;
     font-size: clamp(14px, 1.5vw, 18px);
@@ -349,8 +364,6 @@ textarea:valid+label {
     transition: all .225s ease;
 }
 
-
-
 .submit-btn {
     background-color: #fd917e;
     filter: drop-shadow(2px 2px 3px #0003);
@@ -374,27 +387,6 @@ textarea:valid+label {
 .submit-btn:active {
     transform: scale(1.1, 1.1);
     filter: sepia(0.5);
-}
-
-@media only screen and (max-width: 800px) {
-    h2 {
-        font-size: clamp(40px, 10vw, 60px);
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    h2 {
-        font-size: clamp(30px, 12vw, 60px);
-    }
-
-    .links {
-        padding-top: 30px;
-    }
-
-    img {
-        width: 38px;
-        height: 38px;
-    }
 }
 
 /*--------------------------------------------------------------
