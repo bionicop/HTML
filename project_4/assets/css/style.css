@@ -295,11 +295,7 @@ h2 {
 
 img {
     width: 45px;
-    height: 45px;
-    filter:
-        hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
-    transition: 0.2s;
-    user-select: none;
+    height: 40px;
 }
 
 img:hover {
@@ -309,7 +305,7 @@ img:hover {
 img:active {
     transform: scale(1.1, 1.1);
     filter:
-        hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
+        hue-rotate(5deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
 }
 
 .form-item {
