@@ -2,8 +2,7 @@
 # CSS RESET
 --------------------------------------------------------------*/
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 padding: 0;
 }
 
 html {
@@ -209,6 +208,13 @@ html {
     font-family: 'Bree Serif', serif;
 }
 
+#menu p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
 /*--------------------------------------------------------------
 # ABOUT US
 --------------------------------------------------------------*/
@@ -254,7 +260,7 @@ html {
         radial-gradient(circle at 0% 0%, #FF847C 0 40%, transparent 40.2%),
         radial-gradient(circle at 94% 85%, #E84A5F 0 10%, transparent 10.2%),
         radial-gradient(circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%),
-        
+
         #2A363B;
     border-radius: 10px 0 0 10px;
 }
@@ -387,6 +393,46 @@ textarea:valid+label {
 .submit-btn:active {
     transform: scale(1.1, 1.1);
     filter: sepia(0.5);
+}
+
+/*--------------------------------------------------------------
+# BLOG
+--------------------------------------------------------------*/
+#blog {
+    background-color: #2A363B;
+}
+
+#blog h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#blog p {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.posts-container {
+    margin: auto;
+}
+
+.post {
+    h2 code {
+        display: inline-block;
+        background: $off-white;
+        border-radius: 0.2rem;
+    }
+
+    .post-content {
+        a {
+            text-decoration: none;
+            color: $dark-blue;
+            padding-bottom: 0.1em;
+            border-bottom: 1px dashed $dark-blue;
+        }
+    }
 }
 
 /*--------------------------------------------------------------
