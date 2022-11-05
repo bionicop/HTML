@@ -425,7 +425,7 @@ textarea:valid+label {
 
 #blog p {
     color: white;
-    text-align: center;
+    text-align:justify;
     font-family: 'Unna', serif;
 }
 
