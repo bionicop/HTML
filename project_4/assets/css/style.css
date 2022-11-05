@@ -402,10 +402,81 @@ textarea:valid+label {
     background-color: #2A363B;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.box {
+    border-radius: 8px;
+    display: grid;
+    place-content: center;
+    filter: drop-shadow(1px 2px 8px var(--shadow-color));
+}
+
+.layered.box {
+    box-shadow:
+        1px 2px 2px hsl(220deg 60% 50% / 0.333),
+        2px 4px 4px hsl(220deg 60% 50% / 0.333),
+        3px 6px 6px hsl(220deg 60% 50% / 0.333);
+}
+
+#blog p {
+    color: white;
+    text-align: center;
+    font-family: 'Unna', serif;
+}
+
 #blog h1 {
     color: white;
     text-align: center;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Unna', serif;
+}
+
+#blog h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Unna', serif;
+}
+
+#blog h3{
+    color: white;
+    text-align: center;
+}
+
+#blog a{
+    color: white;
+    text-align: center;
+    font-family: 'Unna', serif;
+}
+
+#blog h4 {
+    color: white;
+    font-family: 'Unna', serif;
+}
+
+#blog h5 {
+    color: white;
+    text-align: center;
+    font-family: 'Unna', serif;
+}
+
+#blog h6 {
+    color: white;
+    font-family: 'Unna', serif;
+}
+
+#blog img {
+    width: 55%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blog span {
+    color: white;
 }
 
 #blog p {
@@ -414,25 +485,15 @@ textarea:valid+label {
     font-family: 'Bree Serif', serif;
 }
 
-.posts-container {
-    margin: auto;
-}
-
-.post {
-    h2 code {
-        display: inline-block;
-        background: $off-white;
-        border-radius: 0.2rem;
-    }
-
-    .post-content {
-        a {
-            text-decoration: none;
-            color: $dark-blue;
-            padding-bottom: 0.1em;
-            border-bottom: 1px dashed $dark-blue;
-        }
-    }
+#blog ul li {
+    color: white;
+    margin-bottom: 10px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 12px;
+    color: #888888;
+    position: relative;
 }
 
 /*--------------------------------------------------------------
