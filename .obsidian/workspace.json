@@ -11,8 +11,10 @@
             "id": "40d729989dcd8be5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "project_8/assignment_1/assignment_1_question.jpeg"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "project_8/assignment_1/assignment_1_question.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "project_8/assignment_1/assignment_1_question.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "project_8/assignment_1/assignment_1_question.jpeg"
+              }
             }
           },
           {
@@ -137,7 +143,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e5963bb9f6c69624",
+  "active": "40d729989dcd8be5",
   "lastOpenFiles": [
     "IT/Classes_Notes/2022-09-17_Internet_Basics.md",
     "IT/Classes_Notes/2022-09-17_Client_Server_Model.md",
